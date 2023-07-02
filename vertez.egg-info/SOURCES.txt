@@ -1,6 +1,6 @@
 README.md
-firefly.cpp
 setup.py
+vertez.cpp
 vertez.egg-info/PKG-INFO
 vertez.egg-info/SOURCES.txt
 vertez.egg-info/dependency_links.txt
