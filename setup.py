@@ -11,7 +11,7 @@ ext_modules = [
 
 setup(
     name="vertez",
-    version="0.1",
+    version="1.0",
     ext_modules=ext_modules,
     install_requires=["pybind11"]
 )
