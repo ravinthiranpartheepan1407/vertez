@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+vertezml.cpp
+vertezml.egg-info/PKG-INFO
+vertezml.egg-info/SOURCES.txt
+vertezml.egg-info/dependency_links.txt
+vertezml.egg-info/requires.txt
+vertezml.egg-info/top_level.txt

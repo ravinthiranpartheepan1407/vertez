@@ -1,8 +1,0 @@
-README.md
-setup.py
-vertez.cpp
-vertez.egg-info/PKG-INFO
-vertez.egg-info/SOURCES.txt
-vertez.egg-info/dependency_links.txt
-vertez.egg-info/requires.txt
-vertez.egg-info/top_level.txt
