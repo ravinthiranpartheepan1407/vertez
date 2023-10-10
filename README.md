@@ -6,6 +6,11 @@ At Vertez, we believe in democratizing access to advanced statistical techniques
 
 Sponsor my project here: [![Sponsor](https://img.shields.io/badge/Sponsor-Donate-blue.svg)](https://github.com/sponsors/ravinthiranpartheepan1407)
 
+## Vertez - Where Math and Data Science Create a Tapestry of Insights
+<a href="https://a.co/d/iVHsqgE">
+  <img src="https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/9d0bd39a-1afb-4c2c-8c99-0b56c03b7968/Amazon_Post/w=1920,quality=80" alt="Amazon Product Image">
+</a>
+
 Avaiable Functions:
 -  Chebyshev Distance
 -  Correlation
