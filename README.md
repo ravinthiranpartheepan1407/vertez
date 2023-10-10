@@ -5,3 +5,35 @@ Vertez is a cutting-edge open-source framework dedicated to developing powerful 
 At Vertez, we believe in democratizing access to advanced statistical techniques and the latest advancements in artificial intelligence. Our libraries provide an intuitive and flexible platform for statistical modeling, predictive analytics, and complex data-driven decision making. With a focus on simplicity, performance, and scalability, we enable practitioners to efficiently explore, analyze, and infer from their data.
 
 Sponsor my project here: [![Sponsor](https://img.shields.io/badge/Sponsor-Donate-blue.svg)](https://github.com/sponsors/ravinthiranpartheepan1407)
+
+Avaiable Functions:
+-  Chebyshev Distance
+-  Correlation
+-  Cosine Similarity
+-  Covariance
+-  Entropy
+-  Euclidean Distance
+-  Gini Index
+-  Hamming Code
+-  Kmeans Clustering
+-  Linear Regression: Least Square Metric
+-  Log Transform
+-  Mean Absolute Error
+-  Manhattan Distance
+-  Max
+-  Mean
+-  Median
+-  Min
+-  Minkowski Distance
+-  Minmax
+-  Mode
+-  Mean Squared Error
+-  Range
+-  Root Mean Squared Error
+-  R-Squared
+-  Sample Covariance
+-  Sample variance
+-  Softmax
+-  Standard Deviation
+-  Variance
+-  Z-Score
