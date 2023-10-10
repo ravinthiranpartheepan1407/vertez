@@ -1,3 +1,9 @@
+// Name: vertezml
+// Version: 0.0.3
+// Summary: Vertez: Statify and Infer
+// Home-page:
+// Author: Ravinthiran Partheepan
+
 #include <vector>
 
 double mean(const std::vector<double> &numbers)
