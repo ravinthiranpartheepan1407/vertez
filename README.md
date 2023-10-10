@@ -4,4 +4,4 @@ Vertez is a cutting-edge open-source framework dedicated to developing powerful 
 
 At Vertez, we believe in democratizing access to advanced statistical techniques and the latest advancements in artificial intelligence. Our libraries provide an intuitive and flexible platform for statistical modeling, predictive analytics, and complex data-driven decision making. With a focus on simplicity, performance, and scalability, we enable practitioners to efficiently explore, analyze, and infer from their data.
 
-Sponsor my project here: [![Sponsor](https://img.shields.io/badge/Sponsor-Donate-blue.svg)](https://github.com/sponsors/your-username)
+Sponsor my project here: [![Sponsor](https://img.shields.io/badge/Sponsor-Donate-blue.svg)](https://github.com/sponsors/ravinthiranpartheepan1407)
