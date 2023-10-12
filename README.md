@@ -47,3 +47,4 @@ Avaiable Functions:
 -  Root Mean Square Log Error
 -  Sigmoid
 -  TanH
+-  Vrange
