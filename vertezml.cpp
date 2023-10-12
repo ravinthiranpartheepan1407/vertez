@@ -33,6 +33,7 @@
 #include "C:/Users/ravin/vertez/Infernix/rmsle.cpp"
 #include "C:/Users/ravin/vertez/Infernix/sigmoid.cpp"
 #include "C:/Users/ravin/vertez/Infernix/tanh.cpp"
+#include "C:/Users/ravin/vertez/Infernix/vrange.cpp"
 #include <C:/Users/ravin/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11-2.11.1/pybind11/include/pybind11/pybind11.h>
 #include <C:/Users/ravin/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11-2.11.1/pybind11/include/pybind11/stl.h>
 
@@ -75,4 +76,5 @@ PYBIND11_MODULE(vertezml, m)
     m.def("rmsle", &rmsle, "RMSLE");
     m.def("sigmoid", &sigmoid, "Sigmoid");
     m.def("tanh", &tanh, "TanH");
+    m.def("vrange", &vrange, "VRange");
 }
