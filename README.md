@@ -32,6 +32,7 @@ Avaiable Functions:
 -  Minkowski Distance
 -  Minmax
 -  Mode
+-  Kurtosis
 -  Mean Squared Error
 -  Range
 -  Root Mean Squared Error
