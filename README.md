@@ -32,6 +32,7 @@ Avaiable Functions:
 -  Minkowski Distance
 -  Minmax
 -  Mode
+-  Kurtosis
 -  Mean Squared Error
 -  Range
 -  Root Mean Squared Error
@@ -42,3 +43,7 @@ Avaiable Functions:
 -  Standard Deviation
 -  Variance
 -  Z-Score
+-  MAPE
+-  Root Mean Square Log Error
+-  Sigmoid
+-  TanH
