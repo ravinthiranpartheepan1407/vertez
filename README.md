@@ -42,3 +42,7 @@ Avaiable Functions:
 -  Standard Deviation
 -  Variance
 -  Z-Score
+-  MAPE
+-  Root Mean Square Log Error
+-  Sigmoid
+-  TanH
