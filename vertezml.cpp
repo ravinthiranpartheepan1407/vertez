@@ -28,6 +28,7 @@
 #include "C:/Users/ravin/vertez/Infernix/stdev.cpp"
 #include "C:/Users/ravin/vertez/Infernix/variance.cpp"
 #include "C:/Users/ravin/vertez/Infernix/zscore.cpp"
+#include "C:/Users/ravin/vertez/Infernix/kurtosis.cpp"
 #include <C:/Users/ravin/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11-2.11.1/pybind11/include/pybind11/pybind11.h>
 #include <C:/Users/ravin/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11-2.11.1/pybind11/include/pybind11/stl.h>
 
@@ -65,4 +66,5 @@ PYBIND11_MODULE(vertezml, m)
     m.def("stdev", &stdev, "stdev");
     m.def("variance", &variance, "variance");
     m.def("zscore", &zscore, "zscore");
+    m.def("kurtosis", &kurtosis, "Kurtosis");
 }
