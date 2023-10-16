@@ -48,3 +48,4 @@ Avaiable Functions:
 -  Sigmoid
 -  TanH
 -  Vrange
+-  ANOVA
