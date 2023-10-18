@@ -35,7 +35,8 @@
 #include "C:/Users/ravin/vertez/Infernix/tanh.cpp"
 #include "C:/Users/ravin/vertez/Infernix/vrange.cpp"
 #include "C:/Users/ravin/vertez/Infernix/anova.cpp"
-#include "C:/Users/ravin/vertez/Infernix/gradientdescent.cpp"
+#include "C:/Users/ravin/vertez/Infernix/gradientdescentslope.cpp"
+#include "C:/Users/ravin/vertez/Infernix/gradientdescentinter.cpp"
 #include <C:/Users/ravin/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11-2.11.1/pybind11/include/pybind11/pybind11.h>
 #include <C:/Users/ravin/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11-2.11.1/pybind11/include/pybind11/stl.h>
 
@@ -80,5 +81,6 @@ PYBIND11_MODULE(vertezml, m)
     m.def("tanh", &tanh, "TanH");
     m.def("vrange", &vrange, "VRange");
     m.def("anova", &anova, "anova");
-     m.def("gradientdescent", &gradientdescent, "gradientdescent");
+    m.def("gradientdescentslope", &gradientdescentslope, "gradientdescentslope");
+    m.def("gradientdescentinter", &gradientdescentinter, "gradientdescentinter");
 }

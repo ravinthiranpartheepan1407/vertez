@@ -4,7 +4,7 @@
 
 using namespace std;
 
-vector<double> gradientdescent(vector<double> x, vector<double> y, double input, double learning_rate, int itr){
+vector<double> gradientdescentinter(vector<double> x, vector<double> y, double input, double learning_rate, int itr){
     // y= mx+ b
     // y isthe predicted value
     // x is the number of input,
@@ -93,5 +93,5 @@ vector<double> gradientdescent(vector<double> x, vector<double> y, double input,
         cout<<"The updated intercept using gradient and learning rate is: "<<interceptNew<<endl;
         cout<<"----------------End of Iteration: "<<itr<<" ------------------"<<endl;
     }
-    return slopeRes;
+    return interRes;
 }
