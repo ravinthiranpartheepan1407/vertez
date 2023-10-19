@@ -49,4 +49,5 @@ Avaiable Functions:
 -  TanH
 -  Vrange
 -  ANOVA
--  Gradient Descent
+-  Gradient Descent Slope
+-  Gradient Descent Intercept
