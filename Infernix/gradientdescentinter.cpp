@@ -12,21 +12,22 @@ vector<double> gradientdescentinter(vector<double> x, vector<double> y, double i
     // b is the intercept
 
     vector<double> slopeRes, interRes;
+    double xMean, yMean;
+
+    // Calculate Mean of Feature 1
+    for(size_t elements = 0; elements < x.size(); elements++){
+         xMean += x[elements] / x.size();
+    }
+
+    // Calculate Mean of Feature 2
+    for(size_t elements = 0; elements < y.size(); elements++){
+        yMean += y[elements] / y.size();
+    }
 
     for(int iteration = 0; iteration < itr; iteration++){
-        double xMean, yMean, prodXY, xyProd, slope, intercept, lsq, mseVal, pdSlope, pdIntercept, slopeNew, interceptNew;
+        double prodXY, xyProd, slope, intercept, lsq, mseVal, pdSlope, pdIntercept, slopeNew, interceptNew;
         double pdSlopeSum, pdInterceptSum;
         vector<double> predict;
-
-        // Calculate Mean of Feature 1
-        for(size_t elements = 0; elements < x.size(); elements++){
-            xMean += x[elements] / x.size();
-        }
-
-        // Calculate Mean of Feature 2
-        for(size_t elements = 0; elements < y.size(); elements++){
-            yMean += y[elements] / y.size();
-        }
 
         // Find Slope 'm'
         for(size_t elements = 0; elements < x.size(); elements++){
