@@ -40,6 +40,7 @@
 #include "C:/Users/ravin/vertez/Infernix/rmspropslope.cpp"
 #include "C:/Users/ravin/vertez/Infernix/rmspropinter.cpp"
 #include "C:/Users/ravin/vertez/Infernix/softplus.cpp"
+#include "C:/Users/ravin/vertez/Infernix/maxpool1D.cpp"
 #include <C:/Users/ravin/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11-2.11.1/pybind11/include/pybind11/pybind11.h>
 #include <C:/Users/ravin/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11-2.11.1/pybind11/include/pybind11/stl.h>
 
@@ -89,4 +90,5 @@ PYBIND11_MODULE(vertezml, m)
     m.def("rmspropslope", &rmspropslope, "rmspropslope");
     m.def("rmspropinter", &rmspropinter, "rmspropinter");
     m.def("softplus", &softplus, "softplus");
+    m.def("maxpool1D", &maxpool1D, "maxpool1D");
 }
