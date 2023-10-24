@@ -53,3 +53,4 @@ Avaiable Functions:
 -  Gradient Descent Intercept
 -  RMSProp Slope
 -  RMSProp Intercept
+-  Softplus
