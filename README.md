@@ -51,3 +51,5 @@ Avaiable Functions:
 -  ANOVA
 -  Gradient Descent Slope
 -  Gradient Descent Intercept
+-  RMSProp Slope
+-  RMSProp Intercept
