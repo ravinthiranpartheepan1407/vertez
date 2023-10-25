@@ -55,3 +55,4 @@ Avaiable Functions:
 -  RMSProp Intercept
 -  Softplus
 -  MaxPooling1D
+-  Moving Average
