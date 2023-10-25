@@ -56,4 +56,4 @@ Avaiable Functions:
 -  Softplus
 -  MaxPooling1D
 -  Moving Average
--  Exponential Smoothening
+-  Exponential Smoothing
