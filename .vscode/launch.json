@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ravin/vertez/Infernix",
-      "program": "c:/Users/ravin/vertez/Infernix/build/Debug/outDebug",
+      "cwd": "c:/Users/ravin/vertez",
+      "program": "c:/Users/ravin/vertez/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
