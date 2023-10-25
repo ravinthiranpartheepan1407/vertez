@@ -54,3 +54,4 @@ Avaiable Functions:
 -  RMSProp Slope
 -  RMSProp Intercept
 -  Softplus
+-  MaxPooling1D
