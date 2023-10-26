@@ -57,3 +57,4 @@ Avaiable Functions:
 -  MaxPooling1D
 -  Moving Average
 -  Exponential Smoothing
+-  AutoRegressive
