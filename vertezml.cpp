@@ -44,6 +44,7 @@
 #include "C:/Users/ravin/vertez/Infernix/movingavg.cpp"
 #include "C:/Users/ravin/vertez/Infernix/exposmooth.cpp"
 #include "C:/Users/ravin/vertez/Infernix/autoregressive.cpp"
+#include "C:/Users/ravin/vertez/Infernix/seasondecomp.cpp"
 #include <C:/Users/ravin/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11-2.11.1/pybind11/include/pybind11/pybind11.h>
 #include <C:/Users/ravin/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11-2.11.1/pybind11/include/pybind11/stl.h>
 
@@ -97,4 +98,5 @@ PYBIND11_MODULE(vertezml, m)
     m.def("movingavg", &movingavg, "movingavg");
     m.def("exposmooth", &exposmooth, "exposmooth");
     m.def("autoregressive", &autoregressive, "autoregressive");
+    m.def("seasondecomp", &seasondecomp, "seasondecomp");
 }
