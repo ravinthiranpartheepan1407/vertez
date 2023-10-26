@@ -70,4 +70,5 @@ vector<double> autoregressive(vector<double> x, double t, double stop){
         }
         t = t+1;
     }
+    return x;
 }
