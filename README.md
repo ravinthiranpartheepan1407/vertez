@@ -59,3 +59,7 @@ Avaiable Functions:
 -  Exponential Smoothing
 -  AutoRegressive
 -  Seasonal Decomposition
+-  Principal Component Analysis (2D to 1D)
+-  Tokenization
+-  Casefolding
+-  Stopwords
