@@ -45,6 +45,10 @@
 #include "C:/Users/ravin/vertez/Infernix/exposmooth.cpp"
 #include "C:/Users/ravin/vertez/Infernix/autoregressive.cpp"
 #include "C:/Users/ravin/vertez/Infernix/seasondecomp.cpp"
+#include "C:/Users/ravin/vertez/Infernix/casefold.cpp"
+#include "C:/Users/ravin/vertez/Infernix/pca.cpp"
+#include "C:/Users/ravin/vertez/Infernix/stopwords.cpp"
+#include "C:/Users/ravin/vertez/Infernix/tokenize.cpp"
 #include <C:/Users/ravin/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11-2.11.1/pybind11/include/pybind11/pybind11.h>
 #include <C:/Users/ravin/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11-2.11.1/pybind11/include/pybind11/stl.h>
 
@@ -99,4 +103,8 @@ PYBIND11_MODULE(vertezml, m)
     m.def("exposmooth", &exposmooth, "exposmooth");
     m.def("autoregressive", &autoregressive, "autoregressive");
     m.def("seasondecomp", &seasondecomp, "seasondecomp");
+    m.def("casefold", &casefold, "casefold");
+    m.def("pca", &pca, "pca");
+    m.def("stopwords", &stopwords, "stopwords");
+    m.def("tokenize", &tokenize, "tokenize");
 }
