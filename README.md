@@ -58,3 +58,4 @@ Avaiable Functions:
 -  Moving Average
 -  Exponential Smoothing
 -  AutoRegressive
+-  Seasonal Decomposition
