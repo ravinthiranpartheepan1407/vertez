@@ -49,6 +49,7 @@
 #include "C:/Users/ravin/vertez/Infernix/pca.cpp"
 #include "C:/Users/ravin/vertez/Infernix/stopwords.cpp"
 #include "C:/Users/ravin/vertez/Infernix/tokenize.cpp"
+#include "C:/Users/ravin/vertez/Infernix/naivebayes.cpp"
 #include <C:/Users/ravin/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11-2.11.1/pybind11/include/pybind11/pybind11.h>
 #include <C:/Users/ravin/AppData/Local/Programs/Python/Python311/Lib/site-packages/pybind11-2.11.1/pybind11/include/pybind11/stl.h>
 
@@ -107,4 +108,5 @@ PYBIND11_MODULE(vertezml, m)
     m.def("pca", &pca, "pca");
     m.def("stopwords", &stopwords, "stopwords");
     m.def("tokenize", &tokenize, "tokenize");
+    m.def("naivebayes", &naivebayes, "naivebayes");
 }
