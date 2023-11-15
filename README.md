@@ -63,3 +63,5 @@ Avaiable Functions:
 -  Tokenization
 -  Casefolding
 -  Stopwords
+-  Naive Bayes
+-  TD-IDF
